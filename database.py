@@ -9,7 +9,8 @@ from sqlalchemy.ext.declarative import declarative_base
 "sqlite://:memory:" # Add to system memory and will be lost when the application is closed/reloaded.
 "sqlite://<path>" # start with '///' for relative path or '////' for absolute path
 
-SQLALCHEMY_DATABASE_URL = 'sqlite:///./todos.db'
+# SQLALCHEMY_DATABASE_URL = 'sqlite:///./todos.db'
+SQLALCHEMY_DATABASE_URL = 'sqlite:///./todosapp.db'
 
 engine = create_engine(url=SQLALCHEMY_DATABASE_URL, connect_args={'check_same_thread': False})
 

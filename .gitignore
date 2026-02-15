@@ -47,4 +47,4 @@ htmlcov/
 # Random Files
 adhoc_samples.py
 learnings
-todos.db
+*.db
